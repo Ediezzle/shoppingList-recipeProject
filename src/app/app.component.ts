@@ -6,7 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  loadedFeature = "shopping-list";
+  loadedFeature = "recipe";
   //if you use "(featureSelected)="loadedFeature=$event"" in the html file this method won't be necessary
   onNavigate(feature: string) {
     this.loadedFeature = feature;
