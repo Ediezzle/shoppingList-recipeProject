@@ -8,7 +8,7 @@ export class RecipeService {
   recipeSelected = new EventEmitter<Recipe>();
   private recipes: Recipe[] = [
     new Recipe(
-      "A Test recipe",
+      "Big Fat Burger",
       "This is simply a test",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSeDv4k7c-xaS4ug_SAQEhEZKzFmK5wZqFbFdDhxg1__xvFpAdw",
       [
@@ -21,10 +21,10 @@ export class RecipeService {
       ]
     ),
     new Recipe(
-      "Another test recipe",
+      "Chips and Pork",
       "This is simply a test",
       "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/mrtrending0475.jpg?itok=ULkGk3Pn",
-      [new Ingredient("Meat", 1), new Ingredient("French fries", 20)]
+      [new Ingredient("Pork meat", 1), new Ingredient("French fries", 20)]
     )
   ];
 
