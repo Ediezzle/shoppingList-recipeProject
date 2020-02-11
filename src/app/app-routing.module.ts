@@ -14,7 +14,7 @@ const appRoutes: Routes = [
     children: [
       { path: "", component: RecipeStartComponent },
       { path: "new", component: RecipeEditComponent },
-      { path: ":id", component: RecipeDetailComponent },
+      { path: ":id", component: RecipeDetailComponent }, //colon informs Angular that this is a dynamic segment of the part. Without it Angular would try to match 'id' exactly as it's written
       { path: ":id/edit", component: RecipeEditComponent }
     ]
   },
